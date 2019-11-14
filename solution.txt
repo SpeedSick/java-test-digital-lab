@@ -1,0 +1,8 @@
+
+The following solution is used to solve this task:
+
+1) Floyd algorithm, to calculate the shortest distances between two nodes of the given graph 
+2) Dynamic programming approach to calculate the number of paths between two nodes with given steps
+	dp[from][to][steps] -- returns the number of paths
+3) Dynamic programming approach to calculate the number of paths between two nodes with given distance
+	dp[from][to][distance] -- returns the number of paths
