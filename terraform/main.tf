@@ -4,7 +4,7 @@ variable "profile" {
 }
 
 variable "region" {
-  default = "eu-central-1"
+  default = "eu-north-1"
 }
 
 variable "key" {
@@ -16,11 +16,11 @@ variable "sub_ids" {
 }
 
 variable "instance-ami" {
-  default = "ami-0f686bcf073842e84" # AMI of Mumbai region
+  default = "ami-0e3e7648aba410710" # AMI of Mumbai region
 }
 
 variable "instance_type" {
-  default = "t3.medium"
+  default = "t2.micro"
 }
 
 
